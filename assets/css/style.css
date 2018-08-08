@@ -1,0 +1,409 @@
+    #aboutMeText {
+        line-height:45px;
+        position: relative;
+        margin-left: 230px;
+    }
+
+    body{
+        background-color: #cccccc
+    }
+
+    img {
+        height: 300px;
+        width: 300px;
+
+    }
+
+    h1 {
+        font-size: 300%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .aboutMe {
+        align-content: center;
+        width: device-width;
+        height: 700px;
+        background-color: #ffffff;
+        padding: 0px;
+        padding-top: 30px;
+        padding-left: 20px;
+        margin-left: 350px;
+        margin-right: 350px;
+        margin-top: 50px;
+        margin-bottom: 107px;
+    }
+
+    .contactBox{
+        width: 1000px;
+        height: 700px;
+        align-content:center;
+        background-color:#ffffff;
+        display:block;
+        padding-top: 30px;
+        padding-left: 20px;
+        margin-left: 377px;
+        margin-right: 350px;
+        margin-top: 50px;
+        margin-bottom: 107px;
+        position :fixed;
+    }
+
+
+    ul {
+        padding-top: 100px;
+        top: -30px;
+        position: relative;
+        list-style-type: none;
+        margin-bottom: 0;
+        padding: 0px;
+        overflow: hidden;
+        background-color: #ffffff;
+        font-size: 150%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    li {
+        float: right;
+        margin: 0px;
+    }
+
+    body {
+        position: relative;
+    }
+
+    li a {
+        display: block;
+        color: #777777;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .name {
+        background-color: #4aaaa5;
+        font-family: Arial;
+        color: white;
+
+    }
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+
+    }
+
+    .navbar {
+        border-top: 10px solid;
+        border-color: #4aaaa5;
+        align-content: bottom;
+        width: 100%;
+        height: 50px;
+        background-color: #777777;
+        padding: 10px;
+        position: fixed;
+        margin: 0;
+        bottom: 0px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .navbar a {
+        color: white;
+    }
+
+    .button {
+        position:fixed;
+        background-color: #4aaaa5;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+
+    .listOfStuff {
+        align-content: center;
+        width: device-width;
+        height: 700px;
+        background-color: #ffffff;
+        padding: 0px;
+        padding-top: 30px;
+        padding-left: 20px;
+        margin-left: 350px;
+        margin-right: 350px;
+        margin-top: 50px;
+        margin-bottom: 107px;
+    }
+
+    .flex-grid-thirds {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .col {
+        display: flex;
+        align-items: center;
+        flex: 1;
+    }
+
+    input{
+        width:900px;
+    }
+
+    textarea{
+        width:900px;
+        height:150px;
+    }
+
+
+    @media (max-width: 980px) {
+
+        .aboutMe{
+            align-content: center;
+            width: 445px;
+            height: 800px;
+            background-color: #ffffff;
+            padding: 0px;
+            padding-top: 30px;
+            padding-left: 20px;
+            margin-left: 187px;
+            margin-top: 50px;
+        }
+
+        h1{
+            font-size: 200%;
+        }
+
+        #aboutMeText{
+            font-size:100%;
+            line-height:30px;
+        }
+
+        .listOfStuff {
+            width: 300px;
+            height: 800px;
+            background-color: #ffffff;
+            padding: 0px;
+            padding-top: 30px;
+            padding-left: 20px;
+            margin-left:0px;
+            margin-right: 350px;
+        }
+
+        img{
+            width:200px;
+            height:200px;
+        }
+
+
+        .contactBox{
+            width: 600px;
+            height: 500px;
+            align-content: center;
+            background-color: #ffffff;
+            display: block;
+            padding-top: 30px;
+            padding-left: 20px;
+            margin-right: 350px;
+            margin-top: 50px;
+            margin-left:0px;
+            margin-bottom: 107px;
+            position: fixed;
+        }
+
+        input{
+            width:500px;
+        }
+
+        textarea{
+            width:500px;
+            height:100px;
+        }
+
+        .flex-grid,
+        .flex-grid-thirds {
+            display: block;
+        }
+        .flex-grid .col,
+        .flex-grid-thirds .col {
+            width: 100px;
+            margin: 0 0 10px 0;
+        }
+
+    }
+
+    @media (max-width: 768px) {
+
+        .aboutMe{
+            align-content: center;
+            width: 445px;
+            height: 700px;
+            background-color: #ffffff;
+            padding: 0px;
+            padding-top: 30px;
+            padding-left: 20px;
+            margin-left: 111px;
+        }
+
+        h1{
+            line-height: 25px;
+            font-size: 100%;
+        }
+        
+
+        #aboutMeText{
+            font-size:100%;
+        }
+
+        .listOfStuff {
+            width: 300px;
+            height: 800px;
+            background-color: #ffffff;
+            padding: 0px;
+            padding-top: 30px;
+            padding-left: 20px;
+            margin-left:0px;
+            margin-right: 350px;
+        }
+
+        ul {
+            padding-top: 100px;
+            top: -30px;
+            position: relative;
+            list-style-type: none;
+            margin-bottom: 0;
+            padding: 0px;
+            overflow: hidden;
+            background-color: #ffffff;
+            font-size: 128%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        img{
+            height:150px;
+            width:150px;
+        }
+
+
+        .contactBox{
+            width: 500px;
+            height: 500px;
+            align-content: center;
+            background-color: #ffffff;
+            display: block;
+            padding-top: 30px;
+            padding-left: 20px;
+            margin-right: 350px;
+            margin-top: 50px;
+            margin-left:0px;
+            margin-bottom: 107px;
+            position: fixed;
+        }
+
+        input{
+            width:400px;
+        }
+
+        textarea{
+            width:400px;
+            height:100px;
+        }
+
+    }
+
+    @media (max-width: 640px) {
+
+
+        .aboutMe{
+            align-content: center;
+            height: 610px;
+            background-color: #ffffff;
+            padding: 0px;
+            padding-left: 20px;
+            padding-top: 30px;
+            margin-left: 11px;
+            width: 382px;
+        }
+
+        #aboutMeText{
+            margin-left: 49px;
+            margin-top:169px;
+            font-size:100%;
+        }
+
+        h1{
+            font-size: 100%;
+        }
+
+        .listOfStuff {
+            width: 300px;
+            height: 800px;
+            background-color: #ffffff;
+            padding: 0px;
+            margin-left:0px;
+            padding-top: 30px;
+            padding-left: 20px;
+        }
+
+        img{
+            width:150px;
+            height:150px;
+        }
+
+        ul {
+            padding-top: 100px;
+            top: -30px;
+            position: relative;
+            list-style-type: none;
+            margin-bottom: 0;
+            padding: 0px;
+            overflow: hidden;
+            background-color: #ffffff;
+            font-size: 57%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        li a {
+            display: block;
+            color: #777777;
+            padding: 28px 16px;
+            text-decoration: none;
+        }
+
+
+        .contactBox{
+            width: 400px;
+            height: 400px;
+            align-content: center;
+            background-color: #ffffff;
+            display: block;
+            padding-top: 30px;
+            padding-left: 20px;
+            margin-right: 350px;
+            margin-left:0px;
+            margin-top: 50px;
+            margin-bottom: 107px;
+            position: fixed;
+        }
+
+        input{
+            width:300px;
+        }
+
+        textarea{
+            width:300px;
+            height:70px;
+        }
+
+    }
